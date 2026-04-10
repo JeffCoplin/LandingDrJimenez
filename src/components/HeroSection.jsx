@@ -153,7 +153,7 @@ export default function HeroSection() {
             {/* Photo placeholder — replace with actual doctor image */}
             <div className="relative w-[420px] h-[520px]">
               <img
-                src="/assets/doctor-hero.jpg"
+                src="/assets/doctor.png"
                 alt="Dr. Jiménez Espiritusanto"
                 className="w-full h-full object-cover object-top rounded-3xl"
                 onError={(e) => {

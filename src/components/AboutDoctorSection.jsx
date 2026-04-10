@@ -25,7 +25,7 @@ export default function AboutDoctorSection() {
             className="relative overflow-hidden min-h-[360px] lg:min-h-auto"
           >
             <img
-              src="/assets/doctor-about.jpg"
+              src="/assets/doctor.png"
               alt="Dr. Jiménez Espiritusanto"
               className="w-full h-full object-cover object-top"
               onError={(e) => {
