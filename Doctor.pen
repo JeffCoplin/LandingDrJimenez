@@ -1,0 +1,3527 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "YyJhL",
+      "x": 1200,
+      "y": 0,
+      "name": "Dr. Jiménez – Landing Page",
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "oA4O6",
+          "name": "Navbar",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E8EEF8"
+          },
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "2Vxa8",
+              "name": "navLogo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FnBnX",
+                  "name": "navLogoIcon",
+                  "width": 38,
+                  "height": 38,
+                  "fill": "#1A56DB",
+                  "cornerRadius": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "ORfgo",
+                      "name": "navLogoIco",
+                      "width": 22,
+                      "height": 22,
+                      "iconFontName": "heart-pulse",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "KD9Lm",
+                  "name": "navLogoTxt",
+                  "fill": "#0C1B3A",
+                  "content": "Dr. Jiménez",
+                  "fontFamily": "Geist",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8hnR5",
+              "name": "navLinks",
+              "gap": 36,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZZr6z",
+                  "name": "navL1",
+                  "fill": "#374151",
+                  "content": "Tratamientos",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "AL042",
+                  "name": "navL2",
+                  "fill": "#374151",
+                  "content": "Balones",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ny3yD",
+                  "name": "navL3",
+                  "fill": "#374151",
+                  "content": "Sobre mí",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "866nx",
+                  "name": "navL4",
+                  "fill": "#374151",
+                  "content": "Contacto",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "CBaGv",
+              "name": "navActions",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vIVQ1",
+                  "name": "navWA",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1.5,
+                    "fill": "#25D366"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "r9iMa",
+                      "name": "navWAIco",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "message-circle",
+                      "iconFontFamily": "lucide",
+                      "fill": "#25D366"
+                    },
+                    {
+                      "type": "text",
+                      "id": "I63aP",
+                      "name": "navWATxt",
+                      "fill": "#25D366",
+                      "content": "WhatsApp",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uRXRd",
+                  "name": "navCTA",
+                  "fill": "#1A56DB",
+                  "cornerRadius": 8,
+                  "padding": [
+                    10,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MN5J5",
+                      "name": "navCTATxt",
+                      "fill": "#FFFFFF",
+                      "content": "Agendar evaluación",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TlrRk",
+          "name": "Hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 740,
+          "fill": "#0B1D4A",
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "1l5t4",
+              "x": 780,
+              "y": -120,
+              "name": "hGlow",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.28,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#3B82F6",
+                    "position": 0
+                  },
+                  {
+                    "color": "#3B82F600",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 760,
+              "height": 760
+            },
+            {
+              "type": "frame",
+              "id": "jiA2V",
+              "x": 80,
+              "y": 0,
+              "name": "hLeft",
+              "width": 640,
+              "height": 740,
+              "layout": "vertical",
+              "gap": 30,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "38NnD",
+                  "name": "hBadge",
+                  "fill": "#FFFFFF12",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#FFFFFF25"
+                  },
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "AwgbN",
+                      "name": "hBadgeDot",
+                      "fill": "#60A5FA",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "TBZ9V",
+                      "name": "hBadgeTxt",
+                      "fill": "#93C5FD",
+                      "content": "Gastroenterólogo · Internista · Nutriólogo Clínico",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "2uvuM",
+                  "name": "hH1",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Pierde peso sin cirugía y mejora tu calidad de vida",
+                  "lineHeight": 1.1,
+                  "fontFamily": "Geist",
+                  "fontSize": 56,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "sYIXS",
+                  "name": "hSub",
+                  "fill": "#93C5FD",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Tratamientos avanzados, seguros y mínimamente invasivos para transformar tu salud. Dr. Jiménez Espiritusanto, referente en Santo Domingo.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Geist",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "EDx7d",
+                  "name": "hCTARow",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AoMPQ",
+                      "name": "hCTA1",
+                      "fill": "#F59E0B",
+                      "cornerRadius": 12,
+                      "gap": 10,
+                      "padding": [
+                        18,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "GbbZ7",
+                          "name": "hCTA1Ico",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "calendar",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IvkIU",
+                          "name": "hCTA1Txt",
+                          "fill": "#FFFFFF",
+                          "content": "Agendar evaluación",
+                          "fontFamily": "Geist",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PMX7i",
+                      "name": "hCTA2",
+                      "fill": "#25D36618",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1.5,
+                        "fill": "#25D366"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        18,
+                        28
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Az4iI",
+                          "name": "hCTA2Ico",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "message-circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "#4ADE80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Cx5QC",
+                          "name": "hCTA2Txt",
+                          "fill": "#4ADE80",
+                          "content": "WhatsApp: (809) 622-8484",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "19rY8",
+                  "name": "hStats",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF08",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#FFFFFF14"
+                  },
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3QGGA",
+                      "name": "hS1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FW0bE",
+                          "name": "hS1Num",
+                          "fill": "#FFFFFF",
+                          "content": "15+",
+                          "fontFamily": "Geist",
+                          "fontSize": 30,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DE9sj",
+                          "name": "hS1Lbl",
+                          "fill": "#93C5FD",
+                          "content": "Años de experiencia",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Vz7qv",
+                      "name": "hS2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3SIvY",
+                          "name": "hS2Num",
+                          "fill": "#F59E0B",
+                          "content": "0",
+                          "fontFamily": "Geist",
+                          "fontSize": 30,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "3STrt",
+                          "name": "hS2Lbl",
+                          "fill": "#93C5FD",
+                          "content": "Cirugías necesarias",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sYfVz",
+                      "name": "hS3",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PLLgX",
+                          "name": "hS3Num",
+                          "fill": "#4ADE80",
+                          "content": "100%",
+                          "fontFamily": "Geist",
+                          "fontSize": 30,
+                          "fontWeight": "800"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Btwz9",
+                          "name": "hS3Lbl",
+                          "fill": "#93C5FD",
+                          "content": "Procedimientos seguros",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UOnHD",
+              "x": 740,
+              "y": 0,
+              "name": "Hero Right",
+              "width": 700,
+              "height": 740,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "CCMFi",
+                  "x": 60,
+                  "y": 20,
+                  "name": "hRing",
+                  "fill": "#FFFFFF00",
+                  "width": 580,
+                  "height": 700,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1,
+                    "fill": "#FFFFFF12"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "7quyM",
+                  "x": 110,
+                  "y": 10,
+                  "name": "Dr Photo",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "ionelaaaaa",
+                    "link": "https://unsplash.com/@ionelaaaaa",
+                    "author": "Ionela Mat"
+                  },
+                  "width": 440,
+                  "height": 720,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1749793716288-a5ab5ed3b0e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3OTIyNzF8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 24,
+                  "layout": "none"
+                },
+                {
+                  "type": "frame",
+                  "id": "9ZNdj",
+                  "x": 530,
+                  "y": 120,
+                  "name": "hSc1",
+                  "width": 200,
+                  "height": 86,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000002A",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "gap": 10,
+                  "padding": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ua8IK",
+                      "name": "hSc1Lft",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#EFF6FF",
+                      "cornerRadius": 11,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "uuH2P",
+                          "name": "hSc1Ico",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "shield-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#1A56DB"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dWfNC",
+                      "name": "hSc1Info",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bwTeT",
+                          "name": "hSc1Num",
+                          "fill": "#0C1B3A",
+                          "content": "Certificado",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "o2UyN",
+                          "name": "hSc1Lbl",
+                          "fill": "#6B7280",
+                          "content": "Especialista verificado",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "6Od8Z",
+                  "x": 8,
+                  "y": 530,
+                  "name": "hSc2",
+                  "width": 210,
+                  "height": 86,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000002A",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "gap": 10,
+                  "padding": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rhVqq",
+                      "name": "hSc2Lft",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#ECFDF5",
+                      "cornerRadius": 11,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "F9HQH",
+                          "name": "hSc2Ico",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "award",
+                          "iconFontFamily": "lucide",
+                          "fill": "#10B981"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yWJs4",
+                      "name": "hSc2Info",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "l8477",
+                          "name": "hSc2Num",
+                          "fill": "#0C1B3A",
+                          "content": "15+ Años",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Zt07K",
+                          "name": "hSc2Lbl",
+                          "fill": "#6B7280",
+                          "content": "de experiencia clínica",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YgFWN",
+                  "x": 530,
+                  "y": 440,
+                  "name": "hSc3",
+                  "width": 200,
+                  "height": 86,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 14,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0000002A",
+                    "offset": {
+                      "x": 0,
+                      "y": 8
+                    },
+                    "blur": 24
+                  },
+                  "gap": 10,
+                  "padding": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "n7FWS",
+                      "name": "hSc3Lft",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#FEF3C7",
+                      "cornerRadius": 11,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "DutpG",
+                          "name": "hSc3Ico",
+                          "width": 22,
+                          "height": 22,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#F59E0B"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wYcQ8",
+                      "name": "hSc3Info",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qnysN",
+                          "name": "hSc3Num",
+                          "fill": "#0C1B3A",
+                          "content": "Sin Cirugía",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hg3Cw",
+                          "name": "hSc3Lbl",
+                          "fill": "#6B7280",
+                          "content": "Procedimiento seguro",
+                          "fontFamily": "Geist",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LZVUW",
+          "name": "Problema",
+          "width": "fill_container",
+          "fill": "#F0F7FF",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            88,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "0uJ4z",
+              "name": "probHdr",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xxEYD",
+                  "name": "probEye",
+                  "fill": "#1A56DB",
+                  "content": "¿TE IDENTIFICAS?",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "OMxOY",
+                  "name": "probH2",
+                  "fill": "#0C1B3A",
+                  "textGrowth": "fixed-width",
+                  "width": 680,
+                  "content": "¿Por qué sigues sin resultados?",
+                  "lineHeight": 1.2,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 44,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "de48h",
+                  "name": "probSub",
+                  "fill": "#6B7280",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Sabemos lo frustrante que es. Tienes los tratamientos correctos a tu alcance, sin cirugía ni riesgos innecesarios.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "jKGW1",
+              "name": "probGrid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eIBat",
+                  "name": "probRow1",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lhut0",
+                      "name": "pc1",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1A56DB14",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        28,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "CbA8L",
+                          "name": "pc1Ico",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "scale",
+                          "iconFontFamily": "lucide",
+                          "fill": "#EF4444"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QXaLn",
+                          "name": "pc1Title",
+                          "fill": "#0C1B3A",
+                          "content": "Dificultad para bajar de peso",
+                          "fontFamily": "Geist",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ItAYO",
+                          "name": "pc1Desc",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Dietas y ejercicios que no funcionan. El peso vuelve una y otra vez afectando tu autoestima y salud.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aGoDM",
+                      "name": "pc2",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1A56DB14",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        28,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "aT0sC",
+                          "name": "pc2Ico",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "shield-off",
+                          "iconFontFamily": "lucide",
+                          "fill": "#F59E0B"
+                        },
+                        {
+                          "type": "text",
+                          "id": "3c6fa",
+                          "name": "pc2Title",
+                          "fill": "#0C1B3A",
+                          "content": "Miedo a la cirugía",
+                          "fontFamily": "Geist",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "FC3D2",
+                          "name": "pc2Desc",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "El temor a los riesgos, la recuperación larga y las cicatrices te impide actuar. Existen alternativas sin bisturí.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "3424s",
+                  "name": "probRow2",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pxzgY",
+                      "name": "pc3",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1A56DB14",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        28,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "OqeiW",
+                          "name": "pc3Ico",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "x-circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "#8B5CF6"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zCrRa",
+                          "name": "pc3Title",
+                          "fill": "#0C1B3A",
+                          "content": "Tratamientos sin resultados",
+                          "fontFamily": "Geist",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IkDP9",
+                          "name": "pc3Desc",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Pastillas, medicamentos y dietas extremas que no funcionan a largo plazo sin supervisión médica especializada.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gzMUd",
+                      "name": "pc4",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 20,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#1A56DB14",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 20
+                      },
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": [
+                        28,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "u6zdk",
+                          "name": "pc4Ico",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "activity",
+                          "iconFontFamily": "lucide",
+                          "fill": "#0EA5E9"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YZrL1",
+                          "name": "pc4Title",
+                          "fill": "#0C1B3A",
+                          "content": "Problemas digestivos",
+                          "fontFamily": "Geist",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gN2Uc",
+                          "name": "pc4Desc",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Acidez, inflamación, malestar crónico que afecta tu calidad de vida y bienestar diario.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "thZvO",
+          "name": "svcSection",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "3Kajy",
+              "name": "svcHeader",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a8Euh",
+                  "fill": "#1A56DB",
+                  "content": "TRATAMIENTOS ESPECIALIZADOS",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "ZD9AK",
+                  "fill": "#0C1B3A",
+                  "content": "Procedimientos modernos para tu bienestar",
+                  "fontFamily": "Inter",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "YhmIi",
+                  "fill": "#6B7280",
+                  "content": "Sin cirugías abiertas. Sin cicatrices. Con resultados comprobados.",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YQyBO",
+              "name": "svcGrid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tC9jo",
+                  "name": "svcRow1",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Zytoa",
+                      "name": "svc1",
+                      "width": "fill_container",
+                      "fill": "#F8FAFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0EAFF"
+                      },
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hXRau",
+                          "name": "svc1IconBox",
+                          "width": 52,
+                          "height": 52,
+                          "fill": "#1A56DB",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "PLoQf",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "circle-dot",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "5eUsW",
+                          "fill": "#0C1B3A",
+                          "content": "Balón Gástrico",
+                          "fontFamily": "Inter",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Hlsgn",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": 500,
+                          "content": "El método más efectivo para perder peso sin cirugía. Un balón se introduce en el estómago de forma endoscópica, reduciendo el apetito y ayudando a crear hábitos saludables.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SeYV6",
+                          "name": "svc1Tags",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "2UDOQ",
+                              "fill": "#EFF6FF",
+                              "cornerRadius": 20,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "28DgU",
+                                  "fill": "#1A56DB",
+                                  "content": "Sin cirugía",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Z9nGR",
+                              "fill": "#EFF6FF",
+                              "cornerRadius": 20,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "xKcSm",
+                                  "fill": "#1A56DB",
+                                  "content": "Sin incisiones",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "lLMcn",
+                              "fill": "#ECFDF5",
+                              "cornerRadius": 20,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "1yYdi",
+                                  "fill": "#059669",
+                                  "content": "6-12 meses",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PJesn",
+                      "name": "svc2",
+                      "width": "fill_container",
+                      "fill": "#F8FAFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0EAFF"
+                      },
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "zHfD5",
+                          "name": "svc2IconBox",
+                          "width": 52,
+                          "height": 52,
+                          "fill": "#7C3AED",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "FAsf1",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "zap",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "zVk2f",
+                          "fill": "#0C1B3A",
+                          "content": "Gastroplastia Endoscópica",
+                          "fontFamily": "Inter",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pXGNV",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": 500,
+                          "content": "Reducción del estómago mediante sutura endoscópica sin cirugía abierta. Ideal para pacientes que buscan resultados permanentes con recuperación rápida de 1-2 días.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ewNyL",
+                          "name": "svc2Tags",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "4lmxE",
+                              "fill": "#F5F3FF",
+                              "cornerRadius": 20,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "oDRPz",
+                                  "fill": "#7C3AED",
+                                  "content": "Resultado permanente",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "L07ZN",
+                              "fill": "#ECFDF5",
+                              "cornerRadius": 20,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "FCscE",
+                                  "fill": "#059669",
+                                  "content": "20-25% pérdida",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1jJ6J",
+                  "name": "svcRow2",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NIlmq",
+                      "name": "svc3",
+                      "width": "fill_container",
+                      "fill": "#F8FAFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0EAFF"
+                      },
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "CPnAl",
+                          "name": "svc3IconBox",
+                          "width": 52,
+                          "height": 52,
+                          "fill": "#0891B2",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "dsPOM",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "scan-line",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "GF9MM",
+                          "fill": "#0C1B3A",
+                          "content": "Endoscopía Bariátrica",
+                          "fontFamily": "Inter",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cQOxG",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": 500,
+                          "content": "Procedimiento diagnóstico y terapéutico del sistema digestivo superior. Permite identificar y tratar condiciones relacionadas con la obesidad sin cirugía convencional.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PJ4eh",
+                          "name": "svc3Tags",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "9tUUM",
+                              "fill": "#ECFEFF",
+                              "cornerRadius": 20,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "PHH03",
+                                  "fill": "#0891B2",
+                                  "content": "Diagnóstico preciso",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "X51dS",
+                              "fill": "#ECFDF5",
+                              "cornerRadius": 20,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "8cxv4",
+                                  "fill": "#059669",
+                                  "content": "Mínimamente invasivo",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "blmon",
+                      "name": "svc4",
+                      "width": "fill_container",
+                      "fill": "#F8FAFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0EAFF"
+                      },
+                      "layout": "vertical",
+                      "gap": 20,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "KQxYD",
+                          "name": "svc4IconBox",
+                          "width": 52,
+                          "height": 52,
+                          "fill": "#D97706",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "Hl5Pq",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "pill",
+                              "iconFontFamily": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "sUjiw",
+                          "fill": "#0C1B3A",
+                          "content": "Cápsula Endoscópica",
+                          "fontFamily": "Inter",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5015X",
+                          "fill": "#6B7280",
+                          "textGrowth": "fixed-width",
+                          "width": 500,
+                          "content": "Cámara en cápsula que el paciente traga, recorriendo el intestino delgado sin sedación ni procedimientos invasivos. Diagnóstico completo en 8 horas.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SIr9K",
+                          "name": "svc4Tags",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "v6kK8",
+                              "fill": "#FFFBEB",
+                              "cornerRadius": 20,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "va5MK",
+                                  "fill": "#D97706",
+                                  "content": "Sin sedación",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "7I3b1",
+                              "fill": "#FFFBEB",
+                              "cornerRadius": 20,
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "xYlQW",
+                                  "fill": "#D97706",
+                                  "content": "Diagnóstico completo",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gOFzJ",
+          "name": "balloonsSection",
+          "width": "fill_container",
+          "fill": "#0B1D4A",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Czi37",
+              "name": "ballHdr",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lZTa6",
+                  "fill": "#93C5FD",
+                  "content": "TIPOS DE BALÓN GÁSTRICO",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "cRALp",
+                  "fill": "#FFFFFF",
+                  "content": "¿Cuál balón es para ti?",
+                  "fontFamily": "Inter",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "fFSG4",
+                  "fill": "#93C5FD",
+                  "content": "El Dr. Jiménez te ayuda a elegir el tratamiento ideal según tu perfil y objetivos.",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bTNv1",
+              "name": "ballGrid",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "atKeD",
+                  "name": "bCard1",
+                  "width": "fill_container",
+                  "fill": "#112266",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#1E3A8A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "q9jgI",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "hsJmH",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "#60A5FA"
+                        },
+                        {
+                          "type": "text",
+                          "id": "d41lC",
+                          "fill": "#FFFFFF",
+                          "content": "Orbera",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZkbKc",
+                      "fill": "#93C5FD",
+                      "content": "6 meses",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "37oyX",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": 240,
+                      "content": "El balón más utilizado en el mundo. Aprobado por FDA, lleno de solución salina, colocado por endoscopía en 20 minutos.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "EBrXv",
+                      "fill": "#1E3A8A",
+                      "cornerRadius": 8,
+                      "padding": [
+                        8,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GquPa",
+                          "fill": "#93C5FD",
+                          "content": "Pérdida promedio: 20-30 kg",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "m6ZQi",
+                  "name": "bCard2",
+                  "width": "fill_container",
+                  "fill": "#112266",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#1E3A8A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "dIuXC",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "5oPfZ",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "#818CF8"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kvnNe",
+                          "fill": "#FFFFFF",
+                          "content": "Spatz3",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "bi8X4",
+                      "fill": "#A5B4FC",
+                      "content": "12 meses",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NF1yy",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": 240,
+                      "content": "Único balón ajustable. Permanece 12 meses y puede modificarse en volumen durante el tratamiento según la respuesta del paciente.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TojVF",
+                      "fill": "#1E3A8A",
+                      "cornerRadius": 8,
+                      "padding": [
+                        8,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "d10mS",
+                          "fill": "#A5B4FC",
+                          "content": "Pérdida promedio: 25-35 kg",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WnMxx",
+                  "name": "bCard3",
+                  "width": "fill_container",
+                  "fill": "#F59E0B",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 2,
+                    "fill": "#FBBF24"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EvbPH",
+                      "name": "bCard3Badge",
+                      "fill": "#FFFFFF30",
+                      "cornerRadius": 20,
+                      "gap": 6,
+                      "padding": [
+                        4,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Xj3Fx",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "star",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "THwqg",
+                          "fill": "#FFFFFF",
+                          "content": "MÁS POPULAR",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mAz8V",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "aCKV3",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tMQu7",
+                          "fill": "#FFFFFF",
+                          "content": "Allurion",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "KSXTu",
+                      "fill": "#FFFFFF",
+                      "content": "4 meses • Sin endoscopía",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "S97dq",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": 240,
+                      "content": "¡Innovación revolucionaria! Una cápsula que se traga con agua. No requiere endoscopía, ni anestesia, ni quirófano. Se infla internamente y se elimina de forma natural al vaciarse.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "z2Qaa",
+                      "fill": "#FFFFFF30",
+                      "cornerRadius": 8,
+                      "padding": [
+                        8,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "amZcl",
+                          "fill": "#FFFFFF",
+                          "content": "Pérdida promedio: 10-15 kg",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RPWGI",
+                  "name": "bCard4",
+                  "width": "fill_container",
+                  "fill": "#112266",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#1E3A8A"
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jCcwD",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Pw0oc",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "wind",
+                          "iconFontFamily": "lucide",
+                          "fill": "#34D399"
+                        },
+                        {
+                          "type": "text",
+                          "id": "03MEO",
+                          "fill": "#FFFFFF",
+                          "content": "Helioscopie",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Oswjd",
+                      "fill": "#6EE7B7",
+                      "content": "Balón de aire",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z8yOn",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": 240,
+                      "content": "Único balón llenado con gas (aire). Más ligero, menor sensación de peso. Ideal para pacientes sensibles al líquido salino. Colocado endoscópicamente.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jTx9B",
+                      "fill": "#1E3A8A",
+                      "cornerRadius": 8,
+                      "padding": [
+                        8,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YBc3K",
+                          "fill": "#6EE7B7",
+                          "content": "Pérdida promedio: 15-20 kg",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d7uOF",
+              "name": "balloonCTA",
+              "width": "fill_container",
+              "fill": "#FFFFFF10",
+              "cornerRadius": 16,
+              "gap": 24,
+              "padding": [
+                32,
+                40
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WxfFh",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "¿No sabes cuál balón es el indicado para ti? El Dr. Jiménez evaluará tu caso personalizado.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "4nNG2",
+                  "name": "ctaBallBtn",
+                  "fill": "#F59E0B",
+                  "cornerRadius": 10,
+                  "gap": 8,
+                  "padding": [
+                    14,
+                    28
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "W3P2B",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "calendar",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TBFE2",
+                      "fill": "#FFFFFF",
+                      "content": "Solicitar evaluación",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RFie5",
+          "name": "benefitsSection",
+          "width": "fill_container",
+          "fill": "#F8FAFF",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "5I3C7",
+              "name": "benHdr",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GcCVR",
+                  "fill": "#1A56DB",
+                  "content": "¿POR QUÉ ELEGIR AL DR. JIMÉNEZ?",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "psSij",
+                  "fill": "#0C1B3A",
+                  "content": "Ventajas de nuestros tratamientos",
+                  "fontFamily": "Inter",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "V9wsw",
+              "name": "benGrid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eAuMR",
+                  "name": "benRow1",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BxuBO",
+                      "name": "ben1",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0EAFF"
+                      },
+                      "gap": 16,
+                      "padding": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "0ukM3",
+                          "name": "ben1Icon",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#ECFDF5",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "qT2h6",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "shield-check",
+                              "iconFontFamily": "lucide",
+                              "fill": "#059669"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ghq4s",
+                          "name": "ben1Txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "2wKec",
+                              "fill": "#0C1B3A",
+                              "content": "Sin cirugía abierta",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "BZvYJ",
+                              "fill": "#6B7280",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Todos los procedimientos son endoscópicos. Sin cortes, sin cicatrices.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DCE9u",
+                      "name": "ben2",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0EAFF"
+                      },
+                      "gap": 16,
+                      "padding": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "if22j",
+                          "name": "ben2Icon",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#EFF6FF",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "GWvYg",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "briefcase",
+                              "iconFontFamily": "lucide",
+                              "fill": "#1A56DB"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Fu0la",
+                          "name": "ben2Txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xYjDj",
+                              "fill": "#0C1B3A",
+                              "content": "Sin incapacidad laboral",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "0O4yy",
+                              "fill": "#6B7280",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Regresa a tu vida normal en 24-48 horas. Sin hospitalización prolongada.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "N7ahw",
+                      "name": "ben3",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0EAFF"
+                      },
+                      "gap": 16,
+                      "padding": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "dbQTo",
+                          "name": "ben3Icon",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#F5F3FF",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "WZ5xg",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "award",
+                              "iconFontFamily": "lucide",
+                              "fill": "#7C3AED"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "a7fFX",
+                          "name": "ben3Txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tBh5T",
+                              "fill": "#0C1B3A",
+                              "content": "15+ años de experiencia",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Wb9GD",
+                              "fill": "#6B7280",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Especialista con amplia trayectoria en gastroenterología y nutrición clínica.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Rvuol",
+                  "name": "benRow2",
+                  "width": "fill_container",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oENtI",
+                      "name": "ben4",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0EAFF"
+                      },
+                      "gap": 16,
+                      "padding": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "QU32Y",
+                          "name": "ben4Icon",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#FFF7ED",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "twgep",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "timer",
+                              "iconFontFamily": "lucide",
+                              "fill": "#F59E0B"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RNfUm",
+                          "name": "ben4Txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nr1IC",
+                              "fill": "#0C1B3A",
+                              "content": "Recuperación rápida",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "5CN6c",
+                              "fill": "#6B7280",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "La mayoría de procedimientos duran 20-30 minutos con alta el mismo día.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SDaRh",
+                      "name": "ben5",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0EAFF"
+                      },
+                      "gap": 16,
+                      "padding": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Qke4T",
+                          "name": "ben5Icon",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#ECFDF5",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "e7YRE",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "heart-pulse",
+                              "iconFontFamily": "lucide",
+                              "fill": "#059669"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tnEbv",
+                          "name": "ben5Txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jzlhm",
+                              "fill": "#0C1B3A",
+                              "content": "Procedimientos seguros",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "18Wb4",
+                              "fill": "#6B7280",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Tecnología de vanguardia. Aprobada internacionalmente. Máxima seguridad para el paciente.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F9dAF",
+                      "name": "ben6",
+                      "width": "fill_container",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#E0EAFF"
+                      },
+                      "gap": 16,
+                      "padding": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "TGKpo",
+                          "name": "ben6Icon",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#EFF6FF",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "nmexF",
+                              "width": 24,
+                              "height": 24,
+                              "iconFontName": "smile",
+                              "iconFontFamily": "lucide",
+                              "fill": "#1A56DB"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OOr4e",
+                          "name": "ben6Txt",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ecBvf",
+                              "fill": "#0C1B3A",
+                              "content": "Mejora tu calidad de vida",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "uvdPU",
+                              "fill": "#6B7280",
+                              "textGrowth": "fixed-width",
+                              "width": 300,
+                              "content": "Resultados integrales: baja de peso, mejor digestión, mayor energía y autoestima.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "opcBX",
+          "name": "aboutSection",
+          "width": "fill_container",
+          "fill": "#0B1D4A",
+          "children": [
+            {
+              "type": "frame",
+              "id": "RGH2u",
+              "name": "aboutLeft",
+              "clip": true,
+              "width": 520,
+              "height": 580,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6k6EB",
+                  "x": 0,
+                  "y": 0,
+                  "name": "aboutDrPhoto",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "threethroneproductions",
+                    "link": "https://unsplash.com/@threethroneproductions",
+                    "author": "Three Throne Productions"
+                  },
+                  "width": 520,
+                  "height": 580,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1649712041612-021cf78bca23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzU3OTI1ODB8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "F4Njf",
+              "name": "aboutRight",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                64,
+                56
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4spDf",
+                  "fill": "#93C5FD",
+                  "content": "SOBRE EL ESPECIALISTA",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "WWoWe",
+                  "fill": "#FFFFFF",
+                  "content": "Dr. Jiménez Espiritusanto",
+                  "fontFamily": "Inter",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "reqbO",
+                  "fill": "#93C5FD",
+                  "content": "Gastroenterólogo · Internista · Nutriólogo Clínico",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "z7zC8",
+                  "fill": "#CBD5E1",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "Con más de 15 años de experiencia tratando pacientes con problemas digestivos y obesidad, el Dr. Jiménez es uno de los especialistas más reconocidos en República Dominicana. Su enfoque integral combina gastroenterología, medicina interna y nutrición para ofrecer resultados duraderos y personalizados.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "d9T96",
+                  "name": "aboutCreds",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Mgq0l",
+                      "name": "cred1",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "OErsq",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "circle-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#4ADE80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OiISX",
+                          "fill": "#CBD5E1",
+                          "content": "Especialista certificado en Gastroenterología y Endoscopía",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MRrkR",
+                      "name": "cred2",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Nt7Ee",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "circle-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#4ADE80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vAuyH",
+                          "fill": "#CBD5E1",
+                          "content": "Experto en balones gástricos y procedimientos bariátricos endoscópicos",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bbW1J",
+                      "name": "cred3",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Q5KM3",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "circle-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#4ADE80"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zLO9i",
+                          "fill": "#CBD5E1",
+                          "content": "Atención personalizada y seguimiento integral del paciente",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PwaYI",
+                  "name": "aboutContactRow",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "41wT7",
+                      "name": "aboutWaBtn",
+                      "fill": "#25D366",
+                      "cornerRadius": 10,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "tmUTH",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "message-circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lmgXc",
+                          "fill": "#FFFFFF",
+                          "content": "WhatsApp (809) 622-8484",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TbA99",
+          "name": "ctaSection",
+          "clip": true,
+          "width": "fill_container",
+          "height": 480,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "2ZgS8",
+              "x": 0,
+              "y": 0,
+              "name": "ctaBg",
+              "width": 1440,
+              "height": 480,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 135,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0B1D4A",
+                    "position": 0
+                  },
+                  {
+                    "color": "#1A3A8F",
+                    "position": 1
+                  }
+                ]
+              },
+              "layout": "none"
+            },
+            {
+              "type": "ellipse",
+              "id": "H2iYY",
+              "x": -100,
+              "y": -100,
+              "name": "ctaGlow1",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.25,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#F59E0B",
+                    "position": 0
+                  },
+                  {
+                    "color": "#F59E0B00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 500,
+              "height": 500
+            },
+            {
+              "type": "ellipse",
+              "id": "RSHgB",
+              "x": 1100,
+              "y": 150,
+              "name": "ctaGlow2",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "radial",
+                "enabled": true,
+                "opacity": 0.2,
+                "rotation": 0,
+                "size": {
+                  "width": 1,
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#60A5FA",
+                    "position": 0
+                  },
+                  {
+                    "color": "#60A5FA00",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 400,
+              "height": 400
+            },
+            {
+              "type": "frame",
+              "id": "jNOyZ",
+              "x": 320,
+              "y": 0,
+              "name": "ctaContent",
+              "width": 800,
+              "height": 480,
+              "layout": "vertical",
+              "gap": 32,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "W3SPD",
+                  "fill": "#FFFFFF20",
+                  "cornerRadius": 20,
+                  "padding": [
+                    6,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xH2MM",
+                      "fill": "#FCD34D",
+                      "content": "⚡ Cupos limitados — Evaluaciones personalizadas",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "KuaUc",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "Da el primer paso hacia una vida más saludable",
+                  "lineHeight": 1.15,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "GtIgo",
+                  "fill": "#93C5FD",
+                  "textGrowth": "fixed-width",
+                  "width": 620,
+                  "content": "El Dr. Jiménez evaluará tu caso de forma personalizada y te recomendará el tratamiento ideal para alcanzar tus metas de salud. Sin compromisos, con resultados reales.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "d13vH",
+                  "name": "ctaBtnRow",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bnjLD",
+                      "name": "ctaMain",
+                      "fill": "#F59E0B",
+                      "cornerRadius": 12,
+                      "gap": 10,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "hzvsG",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "calendar-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZELXK",
+                          "fill": "#FFFFFF",
+                          "content": "Agendar evaluación gratuita",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TSx4W",
+                      "name": "ctaWa",
+                      "fill": "#FFFFFF00",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 2,
+                        "fill": "#25D366"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Nzb9O",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "message-circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "#25D366"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VhvFa",
+                          "fill": "#25D366",
+                          "content": "WhatsApp directo",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "tRJtm",
+                  "fill": "#93C5FD",
+                  "content": "📍 Santo Domingo · (809) 622-8484",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "u06CX",
+          "name": "footerSection",
+          "width": "fill_container",
+          "fill": "#060E22",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "0aYGB",
+              "name": "footerTop",
+              "width": "fill_container",
+              "gap": 48,
+              "padding": [
+                60,
+                80
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IQg2N",
+                  "name": "footerBrand",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XJlZI",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "xyROl",
+                          "width": 28,
+                          "height": 28,
+                          "iconFontName": "stethoscope",
+                          "iconFontFamily": "lucide",
+                          "fill": "#60A5FA"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Bl6Bz",
+                          "fill": "#FFFFFF",
+                          "content": "Dr. Jiménez",
+                          "fontFamily": "Inter",
+                          "fontSize": 22,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bw6cS",
+                      "fill": "#94A3B8",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "Gastroenterólogo · Internista · Nutriólogo Clínico. Especialista en tratamientos para bajar de peso sin cirugía en Santo Domingo.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DqqMn",
+                  "name": "footerContact",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Xu87M",
+                      "fill": "#60A5FA",
+                      "content": "CONTACTO",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "quOCv",
+                      "name": "fPhone",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "rcJHE",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "phone",
+                          "iconFontFamily": "lucide",
+                          "fill": "#60A5FA"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CxMQl",
+                          "fill": "#E2E8F0",
+                          "content": "(809) 622-8484",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IBs7i",
+                      "name": "fLocation",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "lmmho",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "map-pin",
+                          "iconFontFamily": "lucide",
+                          "fill": "#60A5FA"
+                        },
+                        {
+                          "type": "text",
+                          "id": "6EMLq",
+                          "fill": "#E2E8F0",
+                          "content": "Santo Domingo, República Dominicana",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xLWnJ",
+                      "name": "fWa",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "vPLBB",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "message-circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "#25D366"
+                        },
+                        {
+                          "type": "text",
+                          "id": "8dlev",
+                          "fill": "#E2E8F0",
+                          "content": "WhatsApp: (809) 622-8484",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vtRMW",
+                      "name": "footerWaBtn",
+                      "fill": "#25D366",
+                      "cornerRadius": 10,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "3bPh0",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "message-circle",
+                          "iconFontFamily": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "O7t6Y",
+                          "fill": "#FFFFFF",
+                          "content": "Escríbenos ahora",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "No7SE",
+                  "name": "footerServices",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zbpOE",
+                      "fill": "#60A5FA",
+                      "content": "TRATAMIENTOS",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "WLEEM",
+                      "fill": "#94A3B8",
+                      "content": "Balón Gástrico",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G0L0P",
+                      "fill": "#94A3B8",
+                      "content": "Gastroplastia Endoscópica",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k4TBq",
+                      "fill": "#94A3B8",
+                      "content": "Endoscopía Bariátrica",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RhR9h",
+                      "fill": "#94A3B8",
+                      "content": "Cápsula Endoscópica",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "meP0q",
+                      "fill": "#94A3B8",
+                      "content": "Consulta de Nutrición",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hUgdk",
+              "name": "footerDivider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#1E3A5F"
+            },
+            {
+              "type": "frame",
+              "id": "OagcD",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "padding": [
+                20,
+                80
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eQrf7",
+                  "fill": "#64748B",
+                  "content": "© 2025 Dr. Jiménez Espiritusanto. Todos los derechos reservados.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "l1cfH",
+                  "name": "footerSocials",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dBmGq",
+                      "name": "fSocTxt",
+                      "fill": "#64748B",
+                      "content": "Santo Domingo, RD",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "v2ZgU",
+                      "name": "fSocIcon1",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#1E3A5F",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "sdMmO",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "instagram",
+                          "iconFontFamily": "lucide",
+                          "fill": "#94A3B8"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vowJj",
+                      "name": "fSocIcon2",
+                      "width": 32,
+                      "height": 32,
+                      "fill": "#1E3A5F",
+                      "cornerRadius": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "1DJKo",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "facebook",
+                          "iconFontFamily": "lucide",
+                          "fill": "#94A3B8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
